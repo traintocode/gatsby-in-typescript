@@ -1,0 +1,11 @@
+$backgroundColour: grey;
+
+.page-footer {
+    background-color: $backgroundColour;
+
+    &__link {
+        &:hover {
+            color: red;
+        }
+    }
+}
